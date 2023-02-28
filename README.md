@@ -1,5 +1,6 @@
 # ChatGPT
 ChatGPT
+<img src="https://github.com/vincenttuan/ChatGPT/blob/main/page.png">
 <pre>
 
 API 申請 (OpenAI GPT-3 Developer API)
