@@ -1,5 +1,4 @@
 # ChatGPT
-ChatGPT
 <img src="https://github.com/vincenttuan/ChatGPT/blob/main/page.png" width="300">
 <pre>
 
