@@ -1,5 +1,8 @@
 # ChatGPT
 <img src="https://github.com/vincenttuan/ChatGPT/blob/main/page.png" width="300">
+<p>
+# PDF Download
+<a href="https://github.com/vincenttuan/ChatGPT/blob/main/ChatGPT.pdf">https://github.com/vincenttuan/ChatGPT/blob/main/ChatGPT.pdf</a>
 <pre>
 
 API 申請 (OpenAI GPT-3 Developer API)
