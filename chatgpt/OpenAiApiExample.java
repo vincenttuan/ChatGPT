@@ -34,7 +34,7 @@ public class OpenAiApiExample {
         String prompt = scanner.nextLine();
         System.out.print("請輸入創意程度(0(保守/實際)~1(創新/無序)：");
         double temperature = scanner.nextDouble();
-    	String apiKey = "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";
+    	  String apiKey = "YOUR_TOKEN";
         String apiUrl = "https://api.openai.com/v1/completions";
 
         HttpClient httpClient = HttpClient.newHttpClient();
