@@ -2,12 +2,13 @@
 ChatGPT
 <pre>
 
-API 申請 (OpenAI GPT-3 Developer API)![image](https://user-images.githubusercontent.com/13216208/221784173-6096bf10-8676-4aab-bec8-73fb7cc090d1.png)
+API 申請 (OpenAI GPT-3 Developer API)
 https://platform.openai.com/account/api-keys
 
-每月 $18.00 美金免費額度![image](https://user-images.githubusercontent.com/13216208/221784280-86d8b745-7280-4241-af0a-e88db53b7c12.png)
+每月 $18.00 美金免費額度
 https://platform.openai.com/account/usage
 
+Request input:
 curl https://api.openai.com/v1/completions \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer YOUR_TOKEN' \
@@ -18,5 +19,26 @@ curl https://api.openai.com/v1/completions \
   "temperature": 0,
   "n": 1
 }'
+
+Response output:
+{
+  "id": "cmpl-6oPeqFcHrVKSJRLlFz3Z5tVlYP",
+  "object": "text_completion",
+  "created": 1677473048,
+  "model": "text-davinci-003",
+  "choices": [
+     {
+       "text": "台灣與中國不會開戰，台灣與中國之間的關係是一種維持現狀的關係，台灣與中國之間的關係是一種和平共處的關",
+       "index": 0,
+       "logprobs": null,
+       "finish_reason": "length"
+     }
+   ],
+   "usage": {
+	 "prompt_tokens": 25,
+	 "completion_tokens": 100,
+	 "total_tokens": 125
+   }
+}
 
 </pre>
